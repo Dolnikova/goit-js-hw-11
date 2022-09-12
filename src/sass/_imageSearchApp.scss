@@ -109,4 +109,7 @@ body {
   border: none;
   border-radius: 14px;
   cursor: pointer;
+  &.is-hidden {
+    display: none;
+  }
 }

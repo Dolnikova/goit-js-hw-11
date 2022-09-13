@@ -91,5 +91,5 @@ function cleanGallery() {
   gallery.innerHTML = '';
   pageNumber = 1;
   btnLoadMore.style.display = 'none';
-  currentHits = 0;
+  let currentHits = 0;
 }

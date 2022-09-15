@@ -47,7 +47,7 @@ btnLoadMore.addEventListener('click', () => {
     let totalPages = Math.ceil(foundData.totalHits / pageNr);
     console.log(totalPages);
 
-    if (pageNumber > totalPages) {
+    if (pageNumber >= totalPages) {
       btnLoadMore.style.display = 'none';
       // console.log('There are no more images');
       Notiflix.Notify.failure(
